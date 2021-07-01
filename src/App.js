@@ -1,7 +1,7 @@
 import "./App.css";
 import React from 'react';
-import { List } from "./List";
-import { Form } from "./Form";
+import { List } from "./Components/List";
+import { Form } from "./components/Form";
 
 const App = () => {
     const [items, setItems] = useState ([]);
