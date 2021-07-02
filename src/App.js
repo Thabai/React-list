@@ -1,6 +1,6 @@
 import "./App.css";
-import React from 'react';
-import { List } from "./Components/List";
+import {useState} from 'react';
+import { List } from './components/List';
 import { Form } from "./components/Form";
 
 const App = () => {

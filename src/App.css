@@ -2,5 +2,39 @@
  display: flex;
  flex-direction: column;
  align-items: center;
+ margin: 100px auto;
 }
+
+.header {
+    font-size: 30px;
+    font-family: Cambria,  serif;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.icon {
+    color: gold;
+}
+
+.icon2 {
+    color: white;
+}
+
+button {
+     background-color: transparent;
+     border-color: transparent;
+ }
+
+ ul {
+    list-style: none;
+    padding: 0;
+  }
+
+.rm-Item {
+    margin: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px #bbb5b5a1 solid;
+    display: flex;
+    justify-content: space-between;
+  }
 
